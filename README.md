@@ -47,7 +47,6 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
 
 ```bash
 python COMPARE/CDL_ASPP.py 
-# 注意：这是根据您的截图文件名推断的，如果主脚本是其他文件，请修改此处的名字
 ```
 
 训练过程中，模型检查点和日志会自动保存在 `ComplexNetDeepLab_Reg_Output/` 文件夹中。
