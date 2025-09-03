@@ -39,7 +39,7 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
     ```
 
 3.  **数据集**
-    本项目使用的数据集由CST Studio Suite仿真生成，存放于 `EMTData` 文件夹。请确保数据路径与脚本中的配置一致。
+    本项目使用的数据集由CST Studio Suite仿真生成，存放于EMTData文件夹。请确保数据路径与脚本中的配置一致。
 
 ## 模型训练 (Training)
 
