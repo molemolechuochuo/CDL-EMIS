@@ -1,13 +1,6 @@
 # CDL-Net: Dual-Branch Complex-Valued Networks for Microwave Complex Permittivity Inversion
 
-![Model Architecture](https://i.imgur.com/your-model-image-url.png) 
-This repository contains the official PyTorch implementation for the paper:
-
-**[请在这里填写您的论文标题]** <br>
-*作者: [请在这里填写您的名字和您导师、师兄等其他作者的名字]* <br>
-**[请在这里粘贴您论文的arXiv链接或最终发表的期刊链接]**
-
----
+<img width="13170" height="7398" alt="CDL_fram" src="https://github.com/user-attachments/assets/29257f69-d9ef-49d4-85c8-b44476bf43df" />
 
 ## 摘要 (Abstract)
 
@@ -26,6 +19,7 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
 ├── ComplexNetDeepLab_Reg_Output/ # 本项目(CDL-Net)的输出，包括模型权重
 ├── ...                   # 其他基线模型的输出文件夹
 ├── .gitattributes        # Git LFS 配置文件
+├── requirements.txt      # 运行环境
 └── README.md             # 本说明文件
 ```
 
@@ -43,34 +37,32 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
     conda activate cdlnet
     pip install -r requirements.txt 
     ```
-    *注意: 请先根据您的环境生成 `requirements.txt` 文件 (`pip freeze > requirements.txt`) 并上传。*
 
 3.  **数据集**
-    本项目使用的数据集由CST Studio Suite仿真生成，存放于 `EMTData` 文件夹。请确保您的数据路径与脚本中的配置一致。
+    本项目使用的数据集由CST Studio Suite仿真生成，存放于EMTData/文件夹。请确保数据路径与脚本中的配置一致。
 
 ## 模型训练 (Training)
 
-所有的训练脚本都位于 `COMPARE/` 文件夹下。要训练我们的CDL-Net模型，请运行：
+所有的训练脚本都位于COMPARE/文件夹下。要训练我们的CDL-Net模型，请运行：
 
 ```bash
 python COMPARE/CDL_ASPP.py 
-# 注意：这是根据您的截图文件名推断的，如果主脚本是其他文件，请修改此处的名字
 ```
 
-训练过程中，模型检查点和日志会自动保存在 `ComplexNetDeepLab_Reg_Output/` 文件夹中。
+训练过程中，模型检查点和日志会自动保存在ComplexNetDeepLab_Reg_Output/文件夹中。
 
 ## 预训练模型 (Pre-trained Models)
 
-我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的 **[Releases页面](https://github.com/molemolechuchuo/Deeplab_complexnet/releases)** 下载。
+我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的ComplexNetDeepLab+aspp_Reg_Output/ComplexNetDeepLab+aspp_Reg_best_model.pth下载。
 ## 引用 (Citation)
 
 如果您觉得我们的工作对您的研究有所帮助，请考虑引用我们的论文：
 
 ```bibtex
 @article{YourName_2025_CDLNet,
-  title   = {[请在这里填写您的论文标题]},
-  author  = {[请在这里填写作者列表, e.g., Your Name and Advisor Name]},
-  journal = {[请在这里填写期刊名称, e.g., IEEE Transactions on Medical Imaging]},
+  title   = {[Dual-Branch Complex Networks for High-Resolution Complex Permittivity Inversion]},
+  author  = {[绰绰,]},
+  journal = {[啥啥啥,]},
   year    = {2025},
   volume  = {},
   number  = {},
@@ -80,4 +72,4 @@ python COMPARE/CDL_ASPP.py
 
 ## 致谢 (Acknowledgements)
 
-感谢导师梁继民老师，郭开泰老师，和师兄蒋晓天在本研究中的指导和帮助。# Deeplab_complexnet
+感谢导师梁继民老师，郭开泰老师，蒋晓天学长和Dr.小盈🐈在本研究中的指导和帮助。
