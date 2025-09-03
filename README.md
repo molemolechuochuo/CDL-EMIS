@@ -60,9 +60,9 @@ python COMPARE/CDL_ASPP.py
 
 ```bibtex
 @article{YourName_2025_CDLNet,
-  title   = {[请在这里填写您的论文标题]},
-  author  = {[请在这里填写作者列表, e.g., Your Name and Advisor Name]},
-  journal = {[请在这里填写期刊名称, e.g., IEEE Transactions on Medical Imaging]},
+  title   = {[Dual-Branch Complex Networks for High-Resolution Complex Permittivity Inversion]},
+  author  = {[绰绰,]},
+  journal = {[啥啥啥,]},
   year    = {2025},
   volume  = {},
   number  = {},
@@ -72,4 +72,4 @@ python COMPARE/CDL_ASPP.py
 
 ## 致谢 (Acknowledgements)
 
-感谢导师梁继民老师，郭开泰老师，和师兄蒋晓天在本研究中的指导和帮助。# Deeplab_complexnet
+感谢导师梁继民老师，郭开泰老师，和蒋晓天学长和Dr.小盈在本研究中的指导和帮助。
