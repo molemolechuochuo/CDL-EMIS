@@ -43,13 +43,13 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
 
 ## 模型训练 (Training)
 
-所有的训练脚本都位于 `COMPARE/` 文件夹下。要训练我们的CDL-Net模型，请运行：
+所有的训练脚本都位于COMPARE/文件夹下。要训练我们的CDL-Net模型，请运行：
 
 ```bash
 python COMPARE/CDL_ASPP.py 
 ```
 
-训练过程中，模型检查点和日志会自动保存在 `ComplexNetDeepLab_Reg_Output/` 文件夹中。
+训练过程中，模型检查点和日志会自动保存在ComplexNetDeepLab_Reg_Output/文件夹中。
 
 ## 预训练模型 (Pre-trained Models)
 
