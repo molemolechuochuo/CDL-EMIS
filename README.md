@@ -37,10 +37,9 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
     conda activate cdlnet
     pip install -r requirements.txt 
     ```
-    *注意: 请先根据您的环境生成 `requirements.txt` 文件 (`pip freeze > requirements.txt`) 并上传。*
 
 3.  **数据集**
-    本项目使用的数据集由CST Studio Suite仿真生成，存放于 `EMTData` 文件夹。请确保您的数据路径与脚本中的配置一致。
+    本项目使用的数据集由CST Studio Suite仿真生成，存放于 `EMTData` 文件夹。请确保数据路径与脚本中的配置一致。
 
 ## 模型训练 (Training)
 
