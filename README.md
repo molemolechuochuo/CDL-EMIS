@@ -1,13 +1,6 @@
 # CDL-Net: Dual-Branch Complex-Valued Networks for Microwave Complex Permittivity Inversion
 
-![Model Architecture](https://i.imgur.com/your-model-image-url.png) 
-This repository contains the official PyTorch implementation for the paper:
-
-**[请在这里填写您的论文标题]** <br>
-*作者: [请在这里填写您的名字和您导师、师兄等其他作者的名字]* <br>
-**[请在这里粘贴您论文的arXiv链接或最终发表的期刊链接]**
-
----
+<img width="13170" height="7398" alt="CDL_fram" src="https://github.com/user-attachments/assets/29257f69-d9ef-49d4-85c8-b44476bf43df" />
 
 ## 摘要 (Abstract)
 
@@ -61,7 +54,7 @@ python COMPARE/CDL_ASPP.py
 
 ## 预训练模型 (Pre-trained Models)
 
-我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的 **[Releases页面](https://github.com/molemolechuchuo/Deeplab_complexnet/releases)** 下载。
+我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的 **[Releases页面](https://github.com/molemolechuchuo/Deeplab_complexnet/ComplexNetDeepLab+aspp_Reg_Output)** 下载。
 ## 引用 (Citation)
 
 如果您觉得我们的工作对您的研究有所帮助，请考虑引用我们的论文：
