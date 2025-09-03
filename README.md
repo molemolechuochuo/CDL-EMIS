@@ -53,7 +53,7 @@ python COMPARE/CDL_ASPP.py
 
 ## 预训练模型 (Pre-trained Models)
 
-我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的 **[Releases页面](https://github.com/molemolechuchuo/Deeplab_complexnet/ComplexNetDeepLab+aspp_Reg_Output)** 下载。
+我们提供了在CST大腿模型数据集上训练好的最佳模型。您可以在本仓库的ComplexNetDeepLab+aspp_Reg_Output/ComplexNetDeepLab+aspp_Reg_best_model.pth下载。
 ## 引用 (Citation)
 
 如果您觉得我们的工作对您的研究有所帮助，请考虑引用我们的论文：
