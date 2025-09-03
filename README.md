@@ -19,6 +19,7 @@ Microwave imaging (MWI) is a promising non-invasive technique for quantitatively
 ├── ComplexNetDeepLab_Reg_Output/ # 本项目(CDL-Net)的输出，包括模型权重
 ├── ...                   # 其他基线模型的输出文件夹
 ├── .gitattributes        # Git LFS 配置文件
+├── requirements.txt      # 运行环境
 └── README.md             # 本说明文件
 ```
 
