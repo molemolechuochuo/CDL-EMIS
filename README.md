@@ -1,6 +1,6 @@
 # CDL-Net: Dual-Branch Complex-Valued Networks for Microwave Complex Permittivity Inversion
 
-\<img width="13170" height="7398" alt="CDL\_fram" src="[https://github.com/user-attachments/assets/29257f69-d9ef-49d4-85c8-b44476bf43df](https://github.com/user-attachments/assets/29257f69-d9ef-49d4-85c8-b44476bf43df)" /\>
+<img width="13170" height="7398" alt="CDL_fram" src="https://github.com/user-attachments/assets/29257f69-d9ef-49d4-85c8-b44476bf43df" />
 
 ## Abstract
 
